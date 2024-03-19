@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="flex h-screen flex-col">
+        <ul class="flex w-screen justify-center bg-gray-900">
+          <li class="p-7 pt-10 text-white hover:bg-slate-800">Home</li>
+          <li class="p-7 pt-10 text-white hover:bg-slate-800">Products</li>
+          <li class="p-7 pt-10 text-white hover:bg-slate-800">About</li>
+          <li class="p-7 pt-10 text-white hover:bg-slate-800">Contact</li>
+        </ul>
+      
+        <div class="flex bg-slate-800 h-5/6 w-screen items-center justify-center gap-1.5">
+          <form class="mx-auto max-w-sm">
+            <div class="mb-5">
+              <label for="email" class="mb-2 block text-sm font-medium text-gray-900 dark:text-white">Your email</label>
+              <input type="email" id="email" class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500" placeholder="name@flowbite.com" required />
+            </div>
+            <div class="mb-5">
+              <label for="password" class="mb-2 block text-sm font-medium text-gray-900 dark:text-white">Your password</label>
+              <input type="password" id="password" class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500" required />
+            </div>
+            <div class="mb-5 flex items-start">
+              <div class="flex h-5 items-center">
+                <input id="remember" type="checkbox" value="" class="focus:ring-3 h-4 w-4 rounded border border-gray-300 bg-gray-50 focus:ring-blue-300 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600 dark:focus:ring-offset-gray-800" required />
+              </div>
+              <label for="remember" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Remember me</label>
+            </div>
+            <button type="submit" class="w-full rounded-lg bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 sm:w-auto dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+          </form>
+        </div>
+      
+        <div class="flex w-screen pt-2 text-white last:bg-slate-950">
+          <div class="flex w-96 flex-col pl-6">
+            <span>OpenAI © 2015–2024</span>
+            <a href="https://openai.com/policies" class="hover:underline">
+              <span>Terms & poilicies</span>
+            </a>
+            <a href="https://openai.com/policies/privacy-policy" class="hover:underline">
+              <span>Privacy & policy</span>
+            </a>
+            <a href="https://openai.com/brand" class="hover:underline">
+              <span>Brand poilicies</span>
+            </a>
+          </div>
+          <div>
+            <ul class="flex pl-16">
+              <li class="mr-6">Github</li>
+              <li class="mr-6">LinkedIn</li>
+              <li class="mr-6">YouTube</li>
+              <li class="mr-6">Twitter</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+</body>
+
+</html>
